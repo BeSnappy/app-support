@@ -1,6 +1,7 @@
 {
     "name": "snappy/app-support",
     "description": "Base classes and interfaces for building Snappy apps.",
+    "license": "MIT",
     "authors": [
         {
             "name": "UserScape, Inc.",
