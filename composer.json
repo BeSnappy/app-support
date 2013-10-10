@@ -1,0 +1,19 @@
+{
+    "name": "snappy/app-support",
+    "description": "Base classes and interfaces for building Snappy apps.",
+    "authors": [
+        {
+            "name": "UserScape, Inc.",
+            "email": "it@userscape.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
