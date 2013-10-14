@@ -59,6 +59,20 @@ abstract class App {
 	protected $view;
 
 	/**
+	 * Render a given file's content.
+	 *
+	 * @param  string  $__file
+	 * @param  array   $__data
+	 * @return string
+	 */
+	public function render($__file, array $__data = array())
+	{
+		ob_start(); extract($__data);
+
+		include $__file; return ob_get_clean();
+	}
+
+	/**
 	 * Set the config for the application instance.
 	 *
 	 * @param  array  $config
