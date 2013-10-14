@@ -52,13 +52,6 @@ abstract class App {
 	protected $config;
 
 	/**
-	 * The view environment instance.
-	 *
-	 * @var \Illuminate\View\Environment
-	 */
-	protected $view;
-
-	/**
 	 * Render a given file's content.
 	 *
 	 * @param  string  $__file
@@ -81,17 +74,6 @@ abstract class App {
 	public function setConfig(array $config)
 	{
 		$this->config = $config;
-	}
-
-	/**
-	 * Set the view environment.
-	 *
-	 * @param  \Illuminate\View\Environment
-	 * @return void
-	 */
-	public function setViewEnvironment($view)
-	{
-		$this->view = $view;
 	}
 
 }
