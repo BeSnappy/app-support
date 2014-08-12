@@ -10,6 +10,6 @@ interface TagsChangedHandler {
 	 * @param  array  $removed
 	 * @return void
 	 */
-	public function handleTagsChanged(array $ticket, array $added, array $removed);
+	public function handleTagsChanged(array $ticket, $message = null, array $added, array $removed);
 
 }
